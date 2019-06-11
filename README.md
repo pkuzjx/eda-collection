@@ -12,7 +12,7 @@ This is a collection of traditional electronic design automation surveys, course
 ### Synthesis
  - [Optimization of Digital Circuits]()
 ### Placement
- - [Progess and Challenges in VLSI Placement Research]()
+ - [Progress and Challenges in VLSI Placement Research]()
 ### Routing
 
 ## Courses
@@ -33,8 +33,6 @@ This is a collection of traditional electronic design automation surveys, course
 ### FPGA Flow
  - [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) (Toronto)
    - *An **CAD flow** tool for FPGA including ODIN-II, abc, vpr-place, vpr-route.*
- - [OpenFPGA](https://github.com/LNIS-Projects/OpenFPGA) (Utah, POSH projects)
-   - *A **FPGA IP generator** using XML-based architecture description including three parts: FPGA-Verilog, FPGA-SPICE, FPGA-Bitstream.*
  - [RapidWright](https://github.com/Xilinx/RapidWright.git) (Xilinx)
    - *Provide Vivado Interface for users to build customized FPGA implementations.*
  - [FPGA CAD Framework](https://github.com/EliasVansteenkiste/FPGA-CAD-Framework) ()
@@ -95,7 +93,7 @@ This is a collection of traditional electronic design automation surveys, course
    - *A global router for ultimate routability and won the 2nd place in ISPD 2007 contest.*
  - [NTHU-Route](http://www.cs.nthu.edu.tw/~tcwang/nthuroute/) (NTHU)
    - *A fast and stable global router and won the 1st place in ISPD 2008 contest.*
- - [FastRoute](http://home.engineering.iastate.edu/~cnchu/FastRoute.html) (Iowa State University)
+ - [FastRoute](http://home.engineering.iastate.edu/~cnchu/FastRoute.html) (Iowa State)
    - *A global routing tool for VLSI back-end design.*
  - [Flute](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State)
    - *A very fast and accurate technique for rectilinear Steiner minimal tree (RSMT) construction.*
@@ -112,7 +110,9 @@ This is a collection of traditional electronic design automation surveys, course
  - OpenROAD [OpenSTA](https://github.com/abk-openroad/OpenSTA)
    - *A gate level static timing verifier.*
 
-### Memory Compiler
+### Intellectual Property (IP)
+ - POSH [OpenFPGA](https://github.com/LNIS-Projects/OpenFPGA) (Utah)
+   - *A **FPGA IP generator** using XML-based architecture description including three parts: FPGA-Verilog, FPGA-SPICE, FPGA-Bitstream.*
  - [OpenRAM](https://github.com/mguthaus/OpenRAM) (UCSC)
    - *An open-source memory compiler for VLSI circuits.*
 
@@ -128,12 +128,12 @@ This is a collection of traditional electronic design automation surveys, course
    - *A package manager and a set of build tools for HDL code.*
 
 ### Placement
- - [FastPlace](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.public.iastate.edu/~nataraj/FastPlace.html) (Iowa State)
-   - *An Analytical Placer for Large-scale VLSI Circuits.*
- - [NTUplace](http://eda.ee.ntu.edu.tw/w04/download/ntuplace.php) (NTU)
-   - *A ratio partitioning based placer for large-scale mixed-size designs.*
  - [ePlace](http://vlsi-cuda.ucsd.edu/~ljw/ePlace/index.html) (UCSD)
    - *An electrostatics based placer using Nesterov's method.*
+ - [NTUplace](http://eda.ee.ntu.edu.tw/w04/download/ntuplace.php) (NTU)
+   - *A ratio partitioning based placer for large-scale mixed-size designs.*
+ - [FastPlace](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.public.iastate.edu/~nataraj/FastPlace.html) (Iowa State)
+   - *An Analytical Placer for Large-scale VLSI Circuits.*
  - [mPL6](http://cadlab.cs.ucla.edu/cpmo/) (UCLA)
    - *Constrained placement by multilevel optimization*
  - [Dragon](http://vlsicad.eecs.umich.edu/BK/Slots/cache/er.cs.ucla.edu/Dragon/) (UCLA)
