@@ -81,6 +81,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A place and route tool for FPGAs.*
  - [Graywolf](https://github.com/rubund/graywolf) (Yale University)
    - *A placement tool in VLSI design and used together with qflow.*
+ - [DREAMPlace](https://github.com/limbo018/DREAMPlace) (UT Austin)
+   - *A GPU-accelerated analytical placement tool.*
 
 ### Route
  - [Qrouter](http://opencircuitdesign.com/qrouter/)
