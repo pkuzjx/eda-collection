@@ -10,6 +10,7 @@ This is a collection of traditional electronic design automation surveys, course
 ## Books and Surveys
 ### Overview
  - ICCAD 2015 Session 3D [From EDA to DA: Can We Evolve Beyond Our E-Roots?](https://www.mpassociates.com/events/proceedings.aspx?id=196--3-D)
+ - DAC-2015 [DA Perspective Challenge](https://vlsicad.ucsd.edu/DAPerspectiveChallenge/competing-proposals.html)
  - CCC Visioning Activity 2014 [Extreme Scale Design Automation](https://cra.org/ccc/visioning/visioning-activities/2014-activities/extreme-scale-design-automation/)
 ### Synthesis
  - 2003 [Synthesis and Optimization of Digital Circuits](https://si2.epfl.ch/~demichel/publications/mcgraw/)
@@ -127,6 +128,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A **FPGA IP generator** using XML-based architecture description including three parts: FPGA-Verilog, FPGA-SPICE, FPGA-Bitstream.*
  - [OpenRAM](https://github.com/mguthaus/OpenRAM) (UCSC)
    - *An open-source memory compiler for VLSI circuits.*
+ - [LibreCores](https://www.librecores.org/)
+   - *A digital hardware design community for creating and distributing IP cores in the open source spirit*
 
 
 ## Open Access Tools (binary only)
