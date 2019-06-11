@@ -3,7 +3,7 @@ This is a collection of traditional electronic design automation surveys, course
 
 ## Table of contents
  - [Surveys]
- - [Courses]
+ - [Courses and Tutorials]
  - [Open Source Tools (code available)]
  - [Open Access Tools (binary only)]
  - [Books]
@@ -15,9 +15,13 @@ This is a collection of traditional electronic design automation surveys, course
  - [Progress and Challenges in VLSI Placement Research]()
 ### Routing
 
-## Courses
- - [VLSI CAD Part I: Logic](https://www.coursera.org/learn/vlsi-cad-logic)
- - [VLSI CAD Part II: Layout](https://www.coursera.org/learn/vlsi-cad-layout)
+## Courses and Tutorials
+ - Rob A. Rutenbar, [VLSI CAD Part I: Logic](https://www.coursera.org/learn/vlsi-cad-logic) and [VLSI CAD Part II: Layout](https://www.coursera.org/learn/vlsi-cad-layout)
+ - Sung Kyu Lim, [ECE6133: Physical Design Automation of VLSI Systems](http://limsk.ece.gatech.edu/course/ece6133/)
+ - David Z. Pan, [EE 382V: VLSI Physical Design Automation](http://users.ece.utexas.edu/~dpan/EE382V_PDA/)
+ - Sanjit A. Seshia, [EECS 219C: Formal Methods: Specification, Verification, and Synthesis](https://people.eecs.berkeley.edu/~sseshia/219c/)
+ - Chung-Kuan Cheng, [CSE245: Computer Aided Circuit Simulation and Verification](https://cseweb.ucsd.edu/classes/wi15/cse245-a/)
+ - Gogul Ilango's notes [ASIC Design](https://gogul09.github.io/asic-design)
 
 ## Open Source Tools (code available)
 ### ASIC Flow
@@ -27,6 +31,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *An Extensible Physical Synthesis Framework.*
  - [Qflow](http://opencircuitdesign.com/qflow/)
    - *A Digital Flow using Open Source EDA Tools.*
+ - [gEDA](http://www.geda-project.org/)
+   - *a full GPL'd suite and toolkit for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.*
  - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
    - *An open-source toolchain to design and evaluate island style spatial automata processing architectures.*
 
@@ -46,6 +52,8 @@ This is a collection of traditional electronic design automation surveys, course
  - [IceStorm](http://www.clifford.at/icestorm/)
    - *Aims at reverse engineering and documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.*
  - [Torc](https://github.com/torc-isi/torc)
+ - [DATuner](https://github.com/cornell-zhang/datuner) (Cornell, PKU)
+   - *A parallel bandit-based approach for autotuning FPGA compilation*
 
 ### High-level Synthesis
  - [LegUp](http://legup.eecg.utoronto.ca/) (Toronto)
@@ -58,7 +66,7 @@ This is a collection of traditional electronic design automation surveys, course
    - *A usable framework that will enable the research of new ideas in the HW-SW Co-Design field.*
 
 ### DSL and IR
- - [HeteroCL](https://github.com/cornell-zhang/heterocl) (Cornell)
+ - [HeteroCL](https://github.com/cornell-zhang/heterocl) (Cornell, UCLA)
    - *A Multi-Paradigm Programming Infrastructure for Software-Defined Reconfigurable Computing.*
  - [FIRRTL](https://github.com/freechipsproject/firrtl) (Berkeley)
    - *An intermediate representation (IR) for digital circuits designed as a platform for writing circuit-level transformations.*
@@ -95,7 +103,7 @@ This is a collection of traditional electronic design automation surveys, course
    - *A fast and stable global router and won the 1st place in ISPD 2008 contest.*
  - [FastRoute](http://home.engineering.iastate.edu/~cnchu/FastRoute.html) (Iowa State)
    - *A global routing tool for VLSI back-end design.*
- - [Flute](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State)
+ - [FLUTE](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State)
    - *A very fast and accurate technique for rectilinear Steiner minimal tree (RSMT) construction.*
 
 ### Logic Simulation
@@ -110,7 +118,8 @@ This is a collection of traditional electronic design automation surveys, course
  - OpenROAD [OpenSTA](https://github.com/abk-openroad/OpenSTA)
    - *A gate level static timing verifier.*
 
-### Intellectual Property (IP)
+### PDK and IP
+ - [FreePDK](https://www.eda.ncsu.edu/wiki/FreePDK) (NC State)
  - POSH [OpenFPGA](https://github.com/LNIS-Projects/OpenFPGA) (Utah)
    - *A **FPGA IP generator** using XML-based architecture description including three parts: FPGA-Verilog, FPGA-SPICE, FPGA-Bitstream.*
  - [OpenRAM](https://github.com/mguthaus/OpenRAM) (UCSC)
