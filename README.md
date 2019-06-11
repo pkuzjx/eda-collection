@@ -95,6 +95,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A fast and stable global router and won the 1st place in ISPD 2008 contest.*
  - [FastRoute](http://home.engineering.iastate.edu/~cnchu/FastRoute.html) (Iowa State University)
    - *A global routing tool for VLSI back-end design.*
+ - [Flute](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State University)
+   - *A very fast and accurate technique for rectilinear Steiner minimal tree (RSMT) construction.*
 
 ### Logic Simulation
  - [Verilator](https://www.veripool.org/wiki/verilator)
@@ -110,9 +112,6 @@ This is a collection of traditional electronic design automation surveys, course
  - [OpenRAM](https://github.com/mguthaus/OpenRAM) (UCSC)
    - *An open-source memory compiler for VLSI circuits.*
 
-### Others
- - [Flute](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State University)
-   - *A very fast and accurate technique for rectilinear Steiner minimal tree (RSMT) construction.*
 
 ## Open Source Tools (Part II:Binary only)
 ### ASIC Flow
