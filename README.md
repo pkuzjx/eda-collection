@@ -21,21 +21,21 @@ This is a collection of traditional electronic design automation surveys, course
 
 ## Open Source Tools (Part I:Code available)
 ### ASIC Flow
- - [OpenRoad](https://theopenroadproject.org/)(UCSD)
+ - [OpenRoad](https://theopenroadproject.org/) (UCSD)
    - *Aim to develop open-source tools that achieve autonomous, 24-hour layout implementation.*
- - [Rsyn](https://github.com/RsynTeam/rsyn-x)(FURG)
+ - [Rsyn](https://github.com/RsynTeam/rsyn-x) (FURG)
    - *An Extensible Physical Synthesis Framework.*
- - [Qflow](http://opencircuitdesign.com/qflow/)()
+ - [Qflow](http://opencircuitdesign.com/qflow/)
    - *A Digital Flow using Open Source EDA Tools.*
- - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing)(University of Virginia)
+ - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
    - *An open-source toolchain to design and evaluate island style spatial automata processing architectures.*
 
 ### FPGA Flow
- - [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing)(Toronto)
+ - [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) (Toronto)
    - *An **CAD flow** tool for FPGA including ODIN-II, abc, vpr-place, vpr-route.*
- - [OpenFPGA](https://github.com/LNIS-Projects/OpenFPGA)(Utah, POSH projects)
+ - [OpenFPGA](https://github.com/LNIS-Projects/OpenFPGA) (Utah, POSH projects)
    - *A **FPGA IP generator** using XML-based architecture description including three parts: FPGA-Verilog, FPGA-SPICE, FPGA-Bitstream.*
- - [RapidWright](https://github.com/Xilinx/RapidWright.git)(Xilinx)
+ - [RapidWright](https://github.com/Xilinx/RapidWright.git) (Xilinx)
    - *Provide Vivado Interface for users to build customized FPGA implementations.*
  - [FPGA CAD Framework](https://github.com/EliasVansteenkiste/FPGA-CAD-Framework) ()
    - *A Java framework focused on rapid prototyping of new CAD algorithms for FPGA compilation.*
@@ -50,7 +50,7 @@ This is a collection of traditional electronic design automation surveys, course
  - [Torc](https://github.com/torc-isi/torc)
 
 ### High-level Synthesis
- - [LegUp](http://legup.eecg.utoronto.ca/)(Toronto)
+ - [LegUp](http://legup.eecg.utoronto.ca/) (Toronto)
    - *A **high-level synthesis** tool to improve C to Verilog synthesis without building an infrastructure from scratch.*
  - [GAUT](http://www.gaut.fr/) (Université Bretagne Sud)
    - *A high-level synthesis tool from algorithm to hardware architecture.*
