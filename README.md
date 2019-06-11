@@ -4,8 +4,8 @@ This is a collection of traditional electronic design automation surveys, course
 ## Table of contents
  - [Surveys]
  - [Courses]
- - [Open Source Tools (Part I:Code available)]
- - [Open Source Tools (Part II:Binary only)]
+ - [Open Source Tools (code available)]
+ - [Open Access Tools (binary only)]
  - [Books]
 
 ## Surveys
@@ -16,10 +16,10 @@ This is a collection of traditional electronic design automation surveys, course
 ### Routing
 
 ## Courses
- - [VLSI CAD Part I: Logic](https://zh.coursera.org/learn/vlsi-cad-logic)
- - [VLSI CAD Part II: Layout](https://zh.coursera.org/learn/vlsi-cad-layout)
+ - [VLSI CAD Part I: Logic](https://www.coursera.org/learn/vlsi-cad-logic)
+ - [VLSI CAD Part II: Layout](https://www.coursera.org/learn/vlsi-cad-layout)
 
-## Open Source Tools (Part I:Code available)
+## Open Source Tools (code available)
 ### ASIC Flow
  - [OpenRoad](https://theopenroadproject.org/) (UCSD)
    - *Aim to develop open-source tools that achieve autonomous, 24-hour layout implementation.*
@@ -56,6 +56,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A high-level synthesis tool from algorithm to hardware architecture.*
  - [FCUDA](https://github.com/adsc-hls/fcuda) (ADSC High Level Synthesis Team)
    - *A source-to-source transformation framework that takes CUDA kernels with FCUDA annotation pragmas as input and produces a synthesizable C code.*
+ - [PandA](https://panda.dei.polimi.it/) (Politecnico di Milano)
+   - *A usable framework that will enable the research of new ideas in the HW-SW Co-Design field.*
 
 ### DSL and IR
  - [HeteroCL](https://github.com/cornell-zhang/heterocl) (Cornell)
@@ -75,11 +77,11 @@ This is a collection of traditional electronic design automation surveys, course
    - *A Verilog simulation and synthesis tool compiling source code written in Verilog (IEEE-1364) into some target format.*
 
 ### Placement
- - [RePlAce](https://github.com/abk-openroad/RePlAce) (UCSD)
+ - OpenROAD [RePlAce](https://github.com/abk-openroad/RePlAce) (UCSD)
    - *A global placement tool with advancing solution quality and routability validation.*
  - [arachne-pnr](https://github.com/YosysHQ/arachne-pnr) (MIT)
    - *A place and route tool for FPGAs.*
- - [Graywolf](https://github.com/rubund/graywolf) (Yale University)
+ - [Graywolf](https://github.com/rubund/graywolf) (Yale)
    - *A placement tool in VLSI design and used together with qflow.*
  - [DREAMPlace](https://github.com/limbo018/DREAMPlace) (UT Austin)
    - *A GPU-accelerated analytical placement tool.*
@@ -89,13 +91,13 @@ This is a collection of traditional electronic design automation surveys, course
    - *A detailed router based on the standard Lee maze router algorithm.*
  - [FGR](http://vlsicad.eecs.umich.edu/BK/FGR/) (UMich)
    - *A global router based on Lagrange Multipliers and won the 1st place in ISPD 2007 contest.*
- - [BoxRouter](https://www.cerc.utexas.edu/utda/download/BoxRouter.htm) (UTAustin)
+ - [BoxRouter](https://www.cerc.utexas.edu/utda/download/BoxRouter.htm) (UT Austin)
    - *A global router for ultimate routability and won the 2nd place in ISPD 2007 contest.*
  - [NTHU-Route](http://www.cs.nthu.edu.tw/~tcwang/nthuroute/) (NTHU)
    - *A fast and stable global router and won the 1st place in ISPD 2008 contest.*
  - [FastRoute](http://home.engineering.iastate.edu/~cnchu/FastRoute.html) (Iowa State University)
    - *A global routing tool for VLSI back-end design.*
- - [Flute](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State University)
+ - [Flute](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State)
    - *A very fast and accurate technique for rectilinear Steiner minimal tree (RSMT) construction.*
 
 ### Logic Simulation
@@ -107,13 +109,15 @@ This is a collection of traditional electronic design automation surveys, course
 ### Timing Analysis
  - [OpenTimer](https://github.com/OpenTimer/OpenTimer) (UIUC)
    - *A High-Performance Timing Analysis Tool for VLSI Systems.*
+ - OpenROAD [OpenSTA](https://github.com/abk-openroad/OpenSTA)
+   - *A gate level static timing verifier.*
 
 ### Memory Compiler
  - [OpenRAM](https://github.com/mguthaus/OpenRAM) (UCSC)
    - *An open-source memory compiler for VLSI circuits.*
 
 
-## Open Source Tools (Part II:Binary only)
+## Open Access Tools (binary only)
 ### ASIC Flow
  - [DATC Robust Design Flow](https://github.com/jinwookjungs/datc_robust_design_flow) (IEEE CEDA)
 
@@ -124,13 +128,15 @@ This is a collection of traditional electronic design automation surveys, course
    - *A package manager and a set of build tools for HDL code.*
 
 ### Placement
- - [FastPlace](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.public.iastate.edu/~nataraj/FastPlace.html) (Iowa State University)
+ - [FastPlace](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.public.iastate.edu/~nataraj/FastPlace.html) (Iowa State)
    - *An Analytical Placer for Large-scale VLSI Circuits.*
  - [NTUplace](http://eda.ee.ntu.edu.tw/w04/download/ntuplace.php) (NTU)
    - *A ratio partitioning based placer for large-scale mixed-size designs.*
  - [ePlace](http://vlsi-cuda.ucsd.edu/~ljw/ePlace/index.html) (UCSD)
    - *An electrostatics based placer using Nesterov's method.*
- - [Dragon](http://vlsicad.eecs.umich.edu/BK/Slots/cache/er.cs.ucla.edu/Dragon/) (UMich)
+ - [mPL6](http://cadlab.cs.ucla.edu/cpmo/) (UCLA)
+   - *Constrained placement by multilevel optimization*
+ - [Dragon](http://vlsicad.eecs.umich.edu/BK/Slots/cache/er.cs.ucla.edu/Dragon/) (UCLA)
    - *A fast, effective standard-cell placement tool for both variable-die and fixed-die ASIC design.*
  - [Capo](http://vlsicad.eecs.umich.edu/BK/PDtools/Capo/) (UMich)
    - *A fast and high-quality routability-driven placer for standard-cell ASICs.*
