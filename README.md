@@ -32,7 +32,7 @@ This is a collection of traditional electronic design automation surveys, course
  - [Qflow](http://opencircuitdesign.com/qflow/)
    - *A Digital Flow using Open Source EDA Tools.*
  - [gEDA](http://www.geda-project.org/)
-   - *a full GPL'd suite and toolkit for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.*
+   - *A full GPL'd suite and toolkit for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.*
  - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
    - *An open-source toolchain to design and evaluate island style spatial automata processing architectures.*
 
@@ -41,6 +41,7 @@ This is a collection of traditional electronic design automation surveys, course
    - *An **CAD flow** tool for FPGA including ODIN-II, abc, vpr-place, vpr-route.*
  - [RapidWright](https://github.com/Xilinx/RapidWright.git) (Xilinx)
    - *Provide Vivado Interface for users to build customized FPGA implementations.*
+   - Similar projects: [Torc](https://github.com/torc-isi/torc), [RapidSmith](http://rapidsmith.sourceforge.net/), and [RapidSmith2](https://github.com/byuccl/RapidSmith2)
  - [FPGA CAD Framework](https://github.com/EliasVansteenkiste/FPGA-CAD-Framework) ()
    - *A Java framework focused on rapid prototyping of new CAD algorithms for FPGA compilation.*
  - [Rebit](https://code.google.com/archive/p/rebit/)
@@ -51,9 +52,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A tool to simplify the creation, sharing, and software integration of FPGA hardware accelerators.*
  - [IceStorm](http://www.clifford.at/icestorm/)
    - *Aims at reverse engineering and documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.*
- - [Torc](https://github.com/torc-isi/torc)
  - [DATuner](https://github.com/cornell-zhang/datuner) (Cornell, PKU)
-   - *A parallel bandit-based approach for autotuning FPGA compilation*
+   - *A parallel bandit-based approach for autotuning FPGA compilation.*
 
 ### High-level Synthesis
  - [LegUp](http://legup.eecg.utoronto.ca/) (Toronto)
@@ -83,14 +83,14 @@ This is a collection of traditional electronic design automation surveys, course
    - *A Verilog simulation and synthesis tool compiling source code written in Verilog (IEEE-1364) into some target format.*
 
 ### Placement
+ - [DREAMPlace](https://github.com/limbo018/DREAMPlace) (UT Austin)
+   - *A GPU-accelerated analytical placement tool.*
  - OpenROAD [RePlAce](https://github.com/abk-openroad/RePlAce) (UCSD)
    - *A global placement tool with advancing solution quality and routability validation.*
  - [arachne-pnr](https://github.com/YosysHQ/arachne-pnr) (MIT)
    - *A place and route tool for FPGAs.*
  - [Graywolf](https://github.com/rubund/graywolf) (Yale)
    - *A placement tool in VLSI design and used together with qflow.*
- - [DREAMPlace](https://github.com/limbo018/DREAMPlace) (UT Austin)
-   - *A GPU-accelerated analytical placement tool.*
 
 ### Route
  - [Qrouter](http://opencircuitdesign.com/qrouter/)
@@ -120,6 +120,7 @@ This is a collection of traditional electronic design automation surveys, course
 
 ### PDK and IP
  - [FreePDK](https://www.eda.ncsu.edu/wiki/FreePDK) (NC State)
+   - *An open-source, Open-Access-based PDK for the 45nm technology node and the Predictive Technology Model.*
  - POSH [OpenFPGA](https://github.com/LNIS-Projects/OpenFPGA) (Utah)
    - *A **FPGA IP generator** using XML-based architecture description including three parts: FPGA-Verilog, FPGA-SPICE, FPGA-Bitstream.*
  - [OpenRAM](https://github.com/mguthaus/OpenRAM) (UCSC)
@@ -144,7 +145,7 @@ This is a collection of traditional electronic design automation surveys, course
  - [FastPlace](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.public.iastate.edu/~nataraj/FastPlace.html) (Iowa State)
    - *An Analytical Placer for Large-scale VLSI Circuits.*
  - [mPL6](http://cadlab.cs.ucla.edu/cpmo/) (UCLA)
-   - *Constrained placement by multilevel optimization*
+   - *Constrained placement by multilevel optimization.*
  - [Dragon](http://vlsicad.eecs.umich.edu/BK/Slots/cache/er.cs.ucla.edu/Dragon/) (UCLA)
    - *A fast, effective standard-cell placement tool for both variable-die and fixed-die ASIC design.*
  - [Capo](http://vlsicad.eecs.umich.edu/BK/PDtools/Capo/) (UMich)
