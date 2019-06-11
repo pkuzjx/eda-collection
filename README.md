@@ -2,17 +2,19 @@
 This is a collection of traditional electronic design automation surveys, courses, open source tools and books.
 
 ## Table of contents
- - [Surveys]
+ - [Books and Surveys]
  - [Courses and Tutorials]
  - [Open Source Tools (code available)]
  - [Open Access Tools (binary only)]
- - [Books]
 
-## Surveys
+## Books and Surveys
+### Overview
+ - ICCAD 2015 Session 3D [From EDA to DA: Can We Evolve Beyond Our E-Roots?](https://www.mpassociates.com/events/proceedings.aspx?id=196--3-D)
+ - [CCC Visioning Activity: Extreme Scale Design Automation](https://cra.org/ccc/visioning/visioning-activities/2014-activities/extreme-scale-design-automation/)
 ### Synthesis
- - [Optimization of Digital Circuits]()
+ - [Synthesis and Optimization of Digital Circuits](https://si2.epfl.ch/~demichel/publications/mcgraw/)
 ### Placement
- - [Progress and Challenges in VLSI Placement Research]()
+ - [Progress and Challenges in VLSI Placement Research](http://doi.org/10.1109/jproc.2015.2478963)
 ### Routing
 
 ## Courses and Tutorials
@@ -92,7 +94,7 @@ This is a collection of traditional electronic design automation surveys, course
  - [Graywolf](https://github.com/rubund/graywolf) (Yale)
    - *A placement tool in VLSI design and used together with qflow.*
 
-### Route
+### Routing
  - [Qrouter](http://opencircuitdesign.com/qrouter/)
    - *A detailed router based on the standard Lee maze router algorithm.*
  - [FGR](http://vlsicad.eecs.umich.edu/BK/FGR/) (UMich)
@@ -151,4 +153,3 @@ This is a collection of traditional electronic design automation surveys, course
  - [Capo](http://vlsicad.eecs.umich.edu/BK/PDtools/Capo/) (UMich)
    - *A fast and high-quality routability-driven placer for standard-cell ASICs.*
 
-## Books
