@@ -10,11 +10,11 @@ This is a collection of traditional electronic design automation surveys, course
 ## Books and Surveys
 ### Overview
  - ICCAD 2015 Session 3D [From EDA to DA: Can We Evolve Beyond Our E-Roots?](https://www.mpassociates.com/events/proceedings.aspx?id=196--3-D)
- - [CCC Visioning Activity: Extreme Scale Design Automation](https://cra.org/ccc/visioning/visioning-activities/2014-activities/extreme-scale-design-automation/)
+ - CCC Visioning Activity 2014 [Extreme Scale Design Automation](https://cra.org/ccc/visioning/visioning-activities/2014-activities/extreme-scale-design-automation/)
 ### Synthesis
- - [Synthesis and Optimization of Digital Circuits](https://si2.epfl.ch/~demichel/publications/mcgraw/)
+ - 2003 [Synthesis and Optimization of Digital Circuits](https://si2.epfl.ch/~demichel/publications/mcgraw/)
 ### Placement
- - [Progress and Challenges in VLSI Placement Research](http://doi.org/10.1109/jproc.2015.2478963)
+ - 2015 [Progress and Challenges in VLSI Placement Research](http://doi.org/10.1109/jproc.2015.2478963)
 ### Routing
 
 ## Courses and Tutorials
