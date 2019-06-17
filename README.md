@@ -92,11 +92,11 @@ This is a collection of traditional electronic design automation surveys, course
    - *A global placement tool with advancing solution quality and routability validation.*
  - [arachne-pnr](https://github.com/YosysHQ/arachne-pnr) (MIT)
    - *A place and route tool for FPGAs.*
- - [Graywolf](https://github.com/rubund/graywolf) (Yale)
+ - Qflow [Graywolf](https://github.com/rubund/graywolf) (Yale)
    - *A placement tool in VLSI design and used together with qflow.*
 
 ### Routing
- - [Qrouter](http://opencircuitdesign.com/qrouter/)
+ - Qflow [Qrouter](http://opencircuitdesign.com/qrouter/)
    - *A detailed router based on the standard Lee maze router algorithm.*
  - [FGR](http://vlsicad.eecs.umich.edu/BK/FGR/) (UMich)
    - *A global router based on Lagrange Multipliers and won the 1st place in ISPD 2007 contest.*
@@ -114,12 +114,20 @@ This is a collection of traditional electronic design automation surveys, course
    - *A fast free Verilog/SystemVerilog simulator.*
  - [GHDL](https://github.com/ghdl/ghdl)
    - *An open-source simulator for the VHDL language.*
+ - [Tkgate](https://github.com/bnoordhuis/tkgate)
+   - *A digital circuit editor and simulator with a Tcl/Tk-based interface.*
 
 ### Timing Analysis
  - [OpenTimer](https://github.com/OpenTimer/OpenTimer) (UIUC)
    - *A High-Performance Timing Analysis Tool for VLSI Systems.*
  - OpenROAD [OpenSTA](https://github.com/abk-openroad/OpenSTA)
    - *A gate level static timing verifier.*
+
+### Physical Verification
+ - [Magic](http://opencircuitdesign.com/magic/)
+   - *A VLSI layout editor, extraction, and DRC tool.*
+ - [Netgen](http://opencircuitdesign.com/netgen/)
+   - *A circuit netlist comparison (LVS) and netlist conversion tool*
 
 ### PDK and IP
  - [FreePDK](https://www.eda.ncsu.edu/wiki/FreePDK) (NC State)
@@ -130,6 +138,20 @@ This is a collection of traditional electronic design automation surveys, course
    - *An open-source memory compiler for VLSI circuits.*
  - [LibreCores](https://www.librecores.org/)
    - *A digital hardware design community for creating and distributing IP cores in the open source spirit*
+
+### Parser
+ - Verilog Parser [verilog-parser](https://github.com/ben-marshall/verilog-parser)
+   - *A parser for the IEEE 1364-2001 verilog standard.*
+ - Verilog Parser [pyverilog](https://pypi.org/project/pyverilog)
+   - *A hardware design processing toolkit for Verilog HDL including verilog parser, dataflow analyzer, control-flow analyzer and code generator.*
+ - Verilog Parser [hdlparse](https://kevinpt.github.io/hdlparse/)
+   - *A simple package implementing a rudimentary parser for VHDL and Verilog.*
+ - Liberty Parser [1](https://github.com/eclufsc/libertyParser)
+ - Sdc Parser [1](https://github.com/dalance/sdc-parser)
+ - Sdc Parser [2](https://www.synopsys.com/community/interoperability-programs/tap-in.html)
+ - Lef/Def Parser [1](https://github.com/RazKarapetyan/LEF-DEF-parser)
+ - Lef Parser [2](https://github.com/trimcao/lef-parser)
+ - Lef/Def Parser [3](https://projects.si2.org/openeda.si2.org/projects/lefdef/)
 
 
 ## Open Access Tools (binary only)
@@ -155,4 +177,9 @@ This is a collection of traditional electronic design automation surveys, course
    - *A fast, effective standard-cell placement tool for both variable-die and fixed-die ASIC design.*
  - [Capo](http://vlsicad.eecs.umich.edu/BK/PDtools/Capo/) (UMich)
    - *A fast and high-quality routability-driven placer for standard-cell ASICs.*
+
+### Parser
+ - Liberty Parser 
+   - [1](https://metacpan.org/pod/Liberty::Parser)
+
 
