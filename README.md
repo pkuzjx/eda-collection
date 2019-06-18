@@ -57,6 +57,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *Aims at reverse engineering and documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.*
  - [DATuner](https://github.com/cornell-zhang/datuner) (Cornell, PKU)
    - *A parallel bandit-based approach for autotuning FPGA compilation.*
+ - [nextpnr](https://github.com/YosysHQ/nextpnr)
+   - *A vendor neutral, timing driven, FOSS FPGA place and route tool.*
 
 ### High-level Synthesis
  - [LegUp](http://legup.eecg.utoronto.ca/) (Toronto)
