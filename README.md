@@ -12,6 +12,7 @@ This is a collection of traditional electronic design automation surveys, course
  - ICCAD 2015 Session 3D [From EDA to DA: Can We Evolve Beyond Our E-Roots?](https://www.mpassociates.com/events/proceedings.aspx?id=196--3-D)
  - DAC-2015 [DA Perspective Challenge](https://vlsicad.ucsd.edu/DAPerspectiveChallenge/competing-proposals.html)
  - CCC Visioning Activity 2014 [Extreme Scale Design Automation](https://cra.org/ccc/visioning/visioning-activities/2014-activities/extreme-scale-design-automation/)
+ - 2018 [Opportunities for Machine Learning in IC Physical Design](https://vlsicad.ucsd.edu/NEWS18/2018_CASS_ML_Kahng-v5-ACTUAL.pdf)
 ### Synthesis
  - 2003 [Synthesis and Optimization of Digital Circuits](https://si2.epfl.ch/~demichel/publications/mcgraw/)
 ### Placement
@@ -38,6 +39,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A full GPL'd suite and toolkit for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.*
  - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
    - *An open-source toolchain to design and evaluate island style spatial automata processing architectures.*
+ - [Ophidian](https://github.com/eclufsc/ophidian) (UFSC)
+   - *An open-source library for physical design research and teaching.*
 
 ### FPGA Flow
  - [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) (Toronto)
@@ -96,6 +99,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A place and route tool for FPGAs.*
  - Qflow [Graywolf](https://github.com/rubund/graywolf) (Yale)
    - *A placement tool in VLSI design and used together with qflow.*
+ - [RippleFPGA](https://github.com/cuhk-eda/ripple-fpga) (CUHK)
+   - *A simultaneous pack-and-place algorithm for FPGA.*
 
 ### Routing
  - Qflow [Qrouter](http://opencircuitdesign.com/qrouter/)
@@ -110,6 +115,10 @@ This is a collection of traditional electronic design automation surveys, course
    - *A global routing tool for VLSI back-end design.*
  - [FLUTE](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State)
    - *A very fast and accurate technique for rectilinear Steiner minimal tree (RSMT) construction.*
+ - [Dr.Cu](https://github.com/cuhk-eda/dr-cu) (CUHK)
+   - *A detailed routing tool.*
+ - [SALT](https://github.com/chengengjie/salt) (CUHK)
+   - *A tool for generating VLSI routing topology.*
 
 ### Logic Simulation
  - [Verilator](https://www.veripool.org/wiki/verilator)
@@ -125,11 +134,15 @@ This is a collection of traditional electronic design automation surveys, course
  - OpenROAD [OpenSTA](https://github.com/abk-openroad/OpenSTA)
    - *A gate level static timing verifier.*
 
-### Physical Verification
+### Layout
  - [Magic](http://opencircuitdesign.com/magic/)
    - *A VLSI layout editor, extraction, and DRC tool.*
  - [Netgen](http://opencircuitdesign.com/netgen/)
    - *A circuit netlist comparison (LVS) and netlist conversion tool*
+ - [KLayout](https://www.klayout.de/build.html)
+   - *A high performance layout viewer and editor.*
+ - [OpenMPL](https://github.com/limbo018/OpenMPL)
+   - *An open source layout decomposition tool.*
 
 ### PDK and IP
  - [FreePDK](https://www.eda.ncsu.edu/wiki/FreePDK) (NC State)
