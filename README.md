@@ -1,4 +1,4 @@
-# EDA-Surveys-and-Courses
+# EDA-Collection
 This is a collection of traditional electronic design automation surveys, courses, open source tools and books.
 
 ## Table of contents
