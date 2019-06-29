@@ -156,14 +156,10 @@ This is a collection of traditional electronic design automation surveys, course
 
 ### Parsers
  - Verilog
-   - [Icarus Verilog](https://github.com/steveicarus/iverilog)
-     - *A Verilog simulation and synthesis tool compiling source code written in Verilog (IEEE-1364) into some target format.*
-   - [verilog-parser](https://github.com/ben-marshall/verilog-parser)
-     - *A parser for the IEEE 1364-2001 verilog standard.*
-   - [pyverilog](https://pypi.org/project/pyverilog)
-     - *A hardware design processing toolkit for Verilog HDL including verilog parser, dataflow analyzer, control-flow analyzer and code generator.*
-   - [hdlparse](https://kevinpt.github.io/hdlparse/)
-     - *A simple package implementing a rudimentary parser for VHDL and Verilog.*
+   - [Icarus Verilog](https://github.com/steveicarus/iverilog), a Verilog simulation and synthesis tool compiling source code written in Verilog (IEEE-1364) into some target format
+   - [verilog-parser](https://github.com/ben-marshall/verilog-parser), a parser for the IEEE 1364-2001 verilog standard
+   - [pyverilog](https://pypi.org/project/pyverilog), a hardware design processing toolkit for Verilog HDL including verilog parser, dataflow analyzer, control-flow analyzer and code generator
+   - [hdlparse](https://kevinpt.github.io/hdlparse/), a simple package implementing a rudimentary parser for VHDL and Verilog
  - LEF/DEF
    - Si2 [LEF/DEF Toolkit](https://projects.si2.org/openeda.si2.org/projects/lefdef/)
    - RazKarapetyan's [LEF/DEF parser](https://github.com/RazKarapetyan/LEF-DEF-parser)
@@ -198,8 +194,7 @@ This is a collection of traditional electronic design automation surveys, course
  - [Capo](http://vlsicad.eecs.umich.edu/BK/PDtools/Capo/) (UMich)
    - *A fast and high-quality routability-driven placer for standard-cell ASICs.*
 
-### Parser
- - Liberty Parser 
-   - [Liberty::Parser](https://metacpan.org/pod/Liberty::Parser)
-     - a Perl wrapper for Synopsys's Open Liberty Project written in C
+### Parsers
+ - Liberty
+   - [Liberty::Parser](https://metacpan.org/pod/Liberty::Parser), a Perl wrapper for Synopsys's Open Liberty Project
 
