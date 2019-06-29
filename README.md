@@ -31,10 +31,12 @@ This is a collection of traditional electronic design automation surveys, course
 ### ASIC Flow
  - [OpenRoad](https://theopenroadproject.org/) (UCSD)
    - *Aim to develop open-source tools that achieve autonomous, 24-hour layout implementation.*
+ - [qflow](http://opencircuitdesign.com/qflow/) (Dr. R. Timothy Edwards)
+   - *A Digital Flow using Open Source EDA Tools.*
+ - [VSDFLOW](https://github.com/kunalg123/vsdflow) (VLSI System Design)
+   - *An automated RTL-to-GDS flow for programmers, hobbyists, and small-scale entrepreneurs.*
  - [Rsyn](https://github.com/RsynTeam/rsyn-x) (FURG)
    - *An Extensible Physical Synthesis Framework.*
- - [Qflow](http://opencircuitdesign.com/qflow/)
-   - *A Digital Flow using Open Source EDA Tools.*
  - [gEDA](http://www.geda-project.org/)
    - *A full GPL'd suite and toolkit for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.*
  - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
@@ -87,23 +89,21 @@ This is a collection of traditional electronic design automation surveys, course
    - *A logic synthesis and manipulation infrastructure for FPGAs.*
  - [Yosys](https://github.com/YosysHQ/yosys)
    - *A framework for Verilog RTL synthesis.*
- - [Icarus Verilog](https://github.com/steveicarus/iverilog)
-   - *A Verilog simulation and synthesis tool compiling source code written in Verilog (IEEE-1364) into some target format.*
 
 ### Placement
  - [DREAMPlace](https://github.com/limbo018/DREAMPlace) (UT Austin)
    - *A GPU-accelerated analytical placement tool.*
  - OpenROAD [RePlAce](https://github.com/abk-openroad/RePlAce) (UCSD)
    - *A global placement tool with advancing solution quality and routability validation.*
- - [arachne-pnr](https://github.com/YosysHQ/arachne-pnr) (MIT)
-   - *A place and route tool for FPGAs.*
- - Qflow [Graywolf](https://github.com/rubund/graywolf) (Yale)
-   - *A placement tool in VLSI design and used together with qflow.*
  - [RippleFPGA](https://github.com/cuhk-eda/ripple-fpga) (CUHK)
    - *A simultaneous pack-and-place algorithm for FPGA.*
+ - [arachne-pnr](https://github.com/YosysHQ/arachne-pnr)
+   - *A place and route tool for FPGAs.*
+ - qflow [Graywolf](https://github.com/rubund/graywolf)
+   - *A placement tool in VLSI design and used together with qflow.*
 
 ### Routing
- - Qflow [Qrouter](http://opencircuitdesign.com/qrouter/)
+ - qflow [Qrouter](http://opencircuitdesign.com/qrouter/)
    - *A detailed router based on the standard Lee maze router algorithm.*
  - [FGR](http://vlsicad.eecs.umich.edu/BK/FGR/) (UMich)
    - *A global router based on Lagrange Multipliers and won the 1st place in ISPD 2007 contest.*
@@ -154,20 +154,25 @@ This is a collection of traditional electronic design automation surveys, course
  - [LibreCores](https://www.librecores.org/)
    - *A digital hardware design community for creating and distributing IP cores in the open source spirit*
 
-### Parser
- - Verilog Parser [verilog-parser](https://github.com/ben-marshall/verilog-parser)
-   - *A parser for the IEEE 1364-2001 verilog standard.*
- - Verilog Parser [pyverilog](https://pypi.org/project/pyverilog)
-   - *A hardware design processing toolkit for Verilog HDL including verilog parser, dataflow analyzer, control-flow analyzer and code generator.*
- - Verilog Parser [hdlparse](https://kevinpt.github.io/hdlparse/)
-   - *A simple package implementing a rudimentary parser for VHDL and Verilog.*
- - Liberty Parser [1](https://github.com/eclufsc/libertyParser)
- - Sdc Parser [1](https://github.com/dalance/sdc-parser)
- - Sdc Parser [2](https://www.synopsys.com/community/interoperability-programs/tap-in.html)
- - Lef/Def Parser [1](https://github.com/RazKarapetyan/LEF-DEF-parser)
- - Lef Parser [2](https://github.com/trimcao/lef-parser)
- - Lef/Def Parser [3](https://projects.si2.org/openeda.si2.org/projects/lefdef/)
-
+### Parsers
+ - Verilog
+   - [Icarus Verilog](https://github.com/steveicarus/iverilog)
+     - *A Verilog simulation and synthesis tool compiling source code written in Verilog (IEEE-1364) into some target format.*
+   - [verilog-parser](https://github.com/ben-marshall/verilog-parser)
+     - *A parser for the IEEE 1364-2001 verilog standard.*
+   - [pyverilog](https://pypi.org/project/pyverilog)
+     - *A hardware design processing toolkit for Verilog HDL including verilog parser, dataflow analyzer, control-flow analyzer and code generator.*
+   - [hdlparse](https://kevinpt.github.io/hdlparse/)
+     - *A simple package implementing a rudimentary parser for VHDL and Verilog.*
+ - LEF/DEF
+   - Si2 [LEF/DEF Toolkit](https://projects.si2.org/openeda.si2.org/projects/lefdef/)
+   - RazKarapetyan's [LEF/DEF parser](https://github.com/RazKarapetyan/LEF-DEF-parser)
+   - Tri Minh Cao's [LEF parser](https://github.com/trimcao/lef-parser)
+ - Liberty
+   - Mirror of Synopsys's [Liberty parser library](https://github.com/eclufsc/libertyParser)
+ - SDC
+   - Synopsys TAP-in [SDC parser](https://www.synopsys.com/community/interoperability-programs/tap-in.html)
+   - dalance's [SDC parser](https://github.com/dalance/sdc-parser)
 
 ## Open Access Tools (binary only)
 ### ASIC Flow
@@ -195,6 +200,6 @@ This is a collection of traditional electronic design automation surveys, course
 
 ### Parser
  - Liberty Parser 
-   - [1](https://metacpan.org/pod/Liberty::Parser)
-
+   - [Liberty::Parser](https://metacpan.org/pod/Liberty::Parser)
+     - a Perl wrapper for Synopsys's Open Liberty Project written in C
 
