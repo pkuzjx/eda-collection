@@ -29,20 +29,20 @@ This is a collection of traditional electronic design automation surveys, course
 
 ## Open Source Tools (code available)
 ### ASIC Flow
- - [OpenRoad](https://theopenroadproject.org/) (UCSD)
-   - *Aim to develop open-source tools that achieve autonomous, 24-hour layout implementation.*
  - [qflow](http://opencircuitdesign.com/qflow/) (Dr. R. Timothy Edwards)
    - *A Digital Flow using Open Source EDA Tools.*
  - [VSDFLOW](https://github.com/kunalg123/vsdflow) (VLSI System Design)
    - *An automated RTL-to-GDS flow for programmers, hobbyists, and small-scale entrepreneurs.*
+ - [OpenRoad](https://theopenroadproject.org/) (UCSD)
+   - *Aim to develop open-source tools that achieve autonomous, 24-hour layout implementation.*
+ - [Ophidian](https://github.com/eclufsc/ophidian) (UFSC)
+   - *An open-source library for physical design research and teaching.*
  - [Rsyn](https://github.com/RsynTeam/rsyn-x) (FURG)
    - *An Extensible Physical Synthesis Framework.*
  - [gEDA](http://www.geda-project.org/)
    - *A full GPL'd suite and toolkit for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.*
  - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
    - *An open-source toolchain to design and evaluate island style spatial automata processing architectures.*
- - [Ophidian](https://github.com/eclufsc/ophidian) (UFSC)
-   - *An open-source library for physical design research and teaching.*
 
 ### FPGA Flow
  - [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) (Toronto)
@@ -70,24 +70,27 @@ This is a collection of traditional electronic design automation surveys, course
    - *A **high-level synthesis** tool to improve C to Verilog synthesis without building an infrastructure from scratch.*
  - [GAUT](http://www.gaut.fr/) (Université Bretagne Sud)
    - *A high-level synthesis tool from algorithm to hardware architecture.*
- - [FCUDA](https://github.com/adsc-hls/fcuda) (ADSC High Level Synthesis Team)
-   - *A source-to-source transformation framework that takes CUDA kernels with FCUDA annotation pragmas as input and produces a synthesizable C code.*
  - [PandA](https://panda.dei.polimi.it/) (Politecnico di Milano)
    - *A usable framework that will enable the research of new ideas in the HW-SW Co-Design field.*
+ - [FCUDA](https://github.com/adsc-hls/fcuda) (ADSC High Level Synthesis Team)
+   - *A source-to-source transformation framework that takes CUDA kernels with FCUDA annotation pragmas as input and produces a synthesizable C code.*
 
 ### DSL and IR
  - [HeteroCL](https://github.com/cornell-zhang/heterocl) (Cornell, UCLA)
    - *A Multi-Paradigm Programming Infrastructure for Software-Defined Reconfigurable Computing.*
+ - [Chisel](https://chisel.eecs.berkeley.edu/) (Berkeley)
+   - *A hardware construction language that supports advanced hardware design using highly parameterized generators and layered domain-specific hardware languages.*
  - [FIRRTL](https://github.com/freechipsproject/firrtl) (Berkeley)
    - *An intermediate representation (IR) for digital circuits designed as a platform for writing circuit-level transformations.*
-
+ - [Berkeley Analog Generator (BAG)](https://github.com/ucb-art/BAG_framework) (Berkeley)
+   - *A Python-based circuit design platform that aims to automate analog circuit design, but at the same time give the user full visibility and control over every step in the design flow.*
 
 ### Logic Synthesis
  - [ABC](https://github.com/berkeley-abc/abc) (Berkeley)
    - *A sequential logic synthesis and formal verification tool.*
  - [LLDHL](https://github.com/errordeveloper/llhdl)
    - *A logic synthesis and manipulation infrastructure for FPGAs.*
- - [Yosys](https://github.com/YosysHQ/yosys)
+ - qflow [Yosys](https://github.com/YosysHQ/yosys)
    - *A framework for Verilog RTL synthesis.*
 
 ### Placement
@@ -105,6 +108,8 @@ This is a collection of traditional electronic design automation surveys, course
 ### Routing
  - qflow [Qrouter](http://opencircuitdesign.com/qrouter/)
    - *A detailed router based on the standard Lee maze router algorithm.*
+ - [Dr. CU](https://github.com/cuhk-eda/dr-cu) (CUHK)
+   - *VLSI detailed routing tool.*
  - [FGR](http://vlsicad.eecs.umich.edu/BK/FGR/) (UMich)
    - *A global router based on Lagrange Multipliers and won the 1st place in ISPD 2007 contest.*
  - [BoxRouter](https://www.cerc.utexas.edu/utda/download/BoxRouter.htm) (UT Austin)
@@ -115,8 +120,6 @@ This is a collection of traditional electronic design automation surveys, course
    - *A global routing tool for VLSI back-end design.*
  - [FLUTE](http://home.eng.iastate.edu/~cnchu/flute.html) (Iowa State)
    - *A very fast and accurate technique for rectilinear Steiner minimal tree (RSMT) construction.*
- - [Dr.Cu](https://github.com/cuhk-eda/dr-cu) (CUHK)
-   - *A detailed routing tool.*
  - [SALT](https://github.com/chengengjie/salt) (CUHK)
    - *A tool for generating VLSI routing topology.*
 
@@ -125,8 +128,22 @@ This is a collection of traditional electronic design automation surveys, course
    - *A fast free Verilog/SystemVerilog simulator.*
  - [GHDL](https://github.com/ghdl/ghdl)
    - *An open-source simulator for the VHDL language.*
+ - [FreeHDL](http://freehdl.seul.org/)
+   - *A free, open source, GPL'ed VHDL simulator for Linux.*
  - [Tkgate](https://github.com/bnoordhuis/tkgate)
    - *A digital circuit editor and simulator with a Tcl/Tk-based interface.*
+
+### Circuit Simulation
+ - [mixedsim](https://github.com/Isotel/mixedsim) (Isotel)
+   - *Mixed signal simulation with Verilog.*
+ - [ngspice](http://ngspice.sourceforge.net/)
+   - *Open source spice simulator.*
+ - [GNU Circuit Analysis Package (Gnucap)](http://gnucap.org/dokuwiki/doku.php?id=gnucap:start)
+   - *A modern "post-spice" analog and mixed signal circuit simulator.*
+ - [Quite Universal Circuit Simulator (Qucs)](https://github.com/Qucs/qucs/)
+   - *Setup a circuit with a graphical user interface (GUI) and simulate the large-signal, small-signal and noise behaviour of the circuit.*
+ - [Xyce](https://xyce.sandia.gov/)
+   - *An open source, SPICE-compatible, high-performance analog circuit simulator, capable of solving extremely large circuit problems by supporting large-scale parallel computing platforms.*
 
 ### Timing Analysis
  - [OpenTimer](https://github.com/OpenTimer/OpenTimer) (UIUC)
@@ -138,7 +155,7 @@ This is a collection of traditional electronic design automation surveys, course
  - [Magic](http://opencircuitdesign.com/magic/)
    - *A VLSI layout editor, extraction, and DRC tool.*
  - [Netgen](http://opencircuitdesign.com/netgen/)
-   - *A circuit netlist comparison (LVS) and netlist conversion tool*
+   - *A circuit netlist comparison (LVS) and netlist conversion tool.*
  - [KLayout](https://www.klayout.de/build.html)
    - *A high performance layout viewer and editor.*
  - [OpenMPL](https://github.com/limbo018/OpenMPL)
@@ -152,10 +169,12 @@ This is a collection of traditional electronic design automation surveys, course
  - [OpenRAM](https://github.com/mguthaus/OpenRAM) (UCSC)
    - *An open-source memory compiler for VLSI circuits.*
  - [LibreCores](https://www.librecores.org/)
-   - *A digital hardware design community for creating and distributing IP cores in the open source spirit*
+   - *A digital hardware design community for creating and distributing IP cores in the open source spirit.*
+ - [OpenCores](https://opencores.org/)
+   - *The reference community for Free and Open Source gateware IP cores.*
 
 ### Parsers
- - Verilog
+ - HDL (Verilog, VHDL, etc.)
    - [Icarus Verilog](https://github.com/steveicarus/iverilog), a Verilog simulation and synthesis tool compiling source code written in Verilog (IEEE-1364) into some target format
    - [verilog-parser](https://github.com/ben-marshall/verilog-parser), a parser for the IEEE 1364-2001 verilog standard
    - [pyverilog](https://pypi.org/project/pyverilog), a hardware design processing toolkit for Verilog HDL including verilog parser, dataflow analyzer, control-flow analyzer and code generator
@@ -173,6 +192,7 @@ This is a collection of traditional electronic design automation surveys, course
 ## Open Access Tools (binary only)
 ### ASIC Flow
  - [DATC Robust Design Flow](https://github.com/jinwookjungs/datc_robust_design_flow) (IEEE CEDA)
+ - [VLSI CAD Bookshelf 2](http://vlsicad.eecs.umich.edu/BK/)
 
 ### FPGA Flow
 
