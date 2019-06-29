@@ -46,11 +46,14 @@ This is a collection of traditional electronic design automation surveys, course
 
 ### FPGA Flow
  - [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) (Toronto)
-   - *An **CAD flow** tool for FPGA including ODIN-II, abc, vpr-place, vpr-route.*
+   - *An **CAD flow** tool for FPGA including ODIN-II, ABC, VPR place, and VPR route.*
  - [RapidWright](https://github.com/Xilinx/RapidWright.git) (Xilinx)
    - *Provide Vivado Interface for users to build customized FPGA implementations.*
    - Similar projects: [Torc](https://github.com/torc-isi/torc), [RapidSmith](http://rapidsmith.sourceforge.net/), and [RapidSmith2](https://github.com/byuccl/RapidSmith2)
- - [FPGA CAD Framework](https://github.com/EliasVansteenkiste/FPGA-CAD-Framework) ()
+ - [IceStorm](http://www.clifford.at/icestorm/)
+   - *Aims at reverse engineering and documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.*
+   - A working fully open source flow with *Yosys* and *Arachne-pnr*.
+ - [FPGA CAD Framework](https://github.com/EliasVansteenkiste/FPGA-CAD-Framework) (Ghent Univ.)
    - *A Java framework focused on rapid prototyping of new CAD algorithms for FPGA compilation.*
  - [Rebit](https://code.google.com/archive/p/rebit/)
    - *A low level configuration analysis and for the debugging and validation of the bitstream files of architectures that exploit dynamic partial reconfiguration on Xilinx FPGAs.*
@@ -58,12 +61,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A wrapper in Chisel for using RTL kernels into SDAccel 2017.1.*
  - [hCODE](https://github.com/hCODE-FPGA/hCODE/tree/master/lib) (Kumamoto University)
    - *A tool to simplify the creation, sharing, and software integration of FPGA hardware accelerators.*
- - [IceStorm](http://www.clifford.at/icestorm/)
-   - *Aims at reverse engineering and documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.*
  - [DATuner](https://github.com/cornell-zhang/datuner) (Cornell, PKU)
    - *A parallel bandit-based approach for autotuning FPGA compilation.*
- - [nextpnr](https://github.com/YosysHQ/nextpnr)
-   - *A vendor neutral, timing driven, FOSS FPGA place and route tool.*
 
 ### High-level Synthesis
  - [LegUp](http://legup.eecg.utoronto.ca/) (Toronto)
@@ -82,7 +81,7 @@ This is a collection of traditional electronic design automation surveys, course
    - *A hardware construction language that supports advanced hardware design using highly parameterized generators and layered domain-specific hardware languages.*
  - [FIRRTL](https://github.com/freechipsproject/firrtl) (Berkeley)
    - *An intermediate representation (IR) for digital circuits designed as a platform for writing circuit-level transformations.*
- - [Berkeley Analog Generator (BAG)](https://github.com/ucb-art/BAG_framework) (Berkeley)
+ - [BAG: Berkeley Analog Generator](https://github.com/ucb-art/BAG_framework) (Berkeley)
    - *A Python-based circuit design platform that aims to automate analog circuit design, but at the same time give the user full visibility and control over every step in the design flow.*
 
 ### Logic Synthesis
@@ -102,6 +101,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A simultaneous pack-and-place algorithm for FPGA.*
  - [arachne-pnr](https://github.com/YosysHQ/arachne-pnr)
    - *A place and route tool for FPGAs.*
+ - [nextpnr](https://github.com/YosysHQ/nextpnr)
+   - *A vendor neutral, timing driven, FOSS FPGA place and route tool.*
  - qflow [Graywolf](https://github.com/rubund/graywolf)
    - *A placement tool in VLSI design and used together with qflow.*
 
@@ -138,12 +139,21 @@ This is a collection of traditional electronic design automation surveys, course
    - *Mixed signal simulation with Verilog.*
  - [ngspice](http://ngspice.sourceforge.net/)
    - *Open source spice simulator.*
- - [GNU Circuit Analysis Package (Gnucap)](http://gnucap.org/dokuwiki/doku.php?id=gnucap:start)
+ - [SPICE](http://bwrcs.eecs.berkeley.edu/Classes/IcBook/SPICE/)
+   - *A general-purpose circuit simulation program for nonlinear dc, nonlinear transient, and linear ac analyses.*
+ - [Gnucap: GNU Circuit Analysis Package](http://gnucap.org/dokuwiki/doku.php?id=gnucap:start)
    - *A modern "post-spice" analog and mixed signal circuit simulator.*
- - [Quite Universal Circuit Simulator (Qucs)](https://github.com/Qucs/qucs/)
+ - [Qucs: Quite Universal Circuit Simulator](https://github.com/Qucs/qucs/)
    - *Setup a circuit with a graphical user interface (GUI) and simulate the large-signal, small-signal and noise behaviour of the circuit.*
- - [Xyce](https://xyce.sandia.gov/)
+ - [Xyce](https://xyce.sandia.gov/) (Sandia NL)
    - *An open source, SPICE-compatible, high-performance analog circuit simulator, capable of solving extremely large circuit problems by supporting large-scale parallel computing platforms.*
+
+### Physical Simulation
+ - [FreeCAD](https://www.freecadweb.org/)
+   - *An open-source parametric 3D modeler made primarily to design real-life objects of any size.*
+ - [Fast Field Solvers](https://www.fastfieldsolvers.com/) (FastFieldSolvers)
+   - *The "SPICE" of the ElectroMagnetic world.*
+   - E.M. Workbench, FasterCap, FastCap2, FastHenry2, FastModel
 
 ### Timing Analysis
  - [OpenTimer](https://github.com/OpenTimer/OpenTimer) (UIUC)
