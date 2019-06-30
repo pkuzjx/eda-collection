@@ -29,12 +29,12 @@ This is a collection of traditional electronic design automation surveys, course
  - Gogul Ilango's notes [ASIC Design](https://gogul09.github.io/asic-design)
 
 ## Workshops on Open Source EDA
-- [DAC 2019 Birds of a Feather: Open Source Academic EDA Software](https://github.com/The-OpenROAD-Project/Birds-of-a-Feather-Open-Source-Academic-EDA-Software/wiki/DAC-2019-Birds-of-a-Feather:-Open-Source-Academic-EDA-Software)
-  - June 5, 2019; Las Vegas, NV, USA.
-- [WOSET 2019: Workshop on Open-Source EDA Technology](https://woset-workshop.github.io/)
-  - Co-located with ICCAD, Nov 7, 2019; Westminster, CO, USA.
-- [OSDA 2019: Workshop on Open Source Design Automation](https://osda.gitlab.io/)
-  - Co-located with DATE, March 29, 2019; Florence, Italy.
+- DAC Birds of a Feather: Open Source Academic EDA Software
+  - [DAC 2019 BOF](https://github.com/The-OpenROAD-Project/Birds-of-a-Feather-Open-Source-Academic-EDA-Software/wiki/DAC-2019-Birds-of-a-Feather:-Open-Source-Academic-EDA-Software), June 5, 2019; Las Vegas, NV, USA.
+- OSDA: Workshop on Open Source Design Automation
+  - [OSDA 2019](https://osda.gitlab.io/), co-located with DATE, March 29, 2019; Florence, Italy.
+- WOSET: Workshop on Open-Source EDA Technology
+  - [WOSET 2018](https://woset-workshop.github.io/), co-located with ICCAD, Nov 8, 2018; San Diego, CA, USA.
 
 ## Open Source Tools (code available)
 ### ASIC Flow
