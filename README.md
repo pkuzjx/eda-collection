@@ -4,6 +4,7 @@ This is a collection of traditional electronic design automation surveys, course
 ## Table of contents
  - [Books and Surveys]
  - [Courses and Tutorials]
+ - [Workshops on Open Source EDA]
  - [Open Source Tools (code available)]
  - [Open Access Tools (binary only)]
 
@@ -27,6 +28,14 @@ This is a collection of traditional electronic design automation surveys, course
  - Chung-Kuan Cheng, [CSE245: Computer Aided Circuit Simulation and Verification](https://cseweb.ucsd.edu/classes/wi15/cse245-a/)
  - Gogul Ilango's notes [ASIC Design](https://gogul09.github.io/asic-design)
 
+## Workshops on Open Source EDA
+- [DAC 2019 Birds of a Feather: Open Source Academic EDA Software](https://github.com/The-OpenROAD-Project/Birds-of-a-Feather-Open-Source-Academic-EDA-Software/wiki/DAC-2019-Birds-of-a-Feather:-Open-Source-Academic-EDA-Software)
+  - June 5, 2019; Las Vegas, NV, USA.
+- [WOSET 2019: Workshop on Open-Source EDA Technology](https://woset-workshop.github.io/)
+  - Co-located with ICCAD, Nov 7, 2019; Westminster, CO, USA.
+- [OSDA 2019: Workshop on Open Source Design Automation](https://osda.gitlab.io/)
+  - Co-located with DATE, March 29, 2019; Florence, Italy.
+
 ## Open Source Tools (code available)
 ### ASIC Flow
  - [qflow](http://opencircuitdesign.com/qflow/) (Dr. R. Timothy Edwards)
@@ -40,9 +49,7 @@ This is a collection of traditional electronic design automation surveys, course
  - [Rsyn](https://github.com/RsynTeam/rsyn-x) (FURG)
    - *An Extensible Physical Synthesis Framework.*
  - [gEDA](http://www.geda-project.org/)
-   - *A full GPL'd suite and toolkit for electronics design, including schematic capture, attribute management, bill of materials (BOM) generation, netlisting into over 20 netlist formats, analog and digital simulation, and printed circuit board (PCB) layout.*
- - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
-   - *An open-source toolchain to design and evaluate island style spatial automata processing architectures.*
+   - *Working on a full GPL'd suite and toolkit of Electronic Design Automation tools.*
 
 ### FPGA Flow
  - [VTR](https://github.com/verilog-to-routing/vtr-verilog-to-routing) (Toronto)
@@ -50,7 +57,7 @@ This is a collection of traditional electronic design automation surveys, course
  - [RapidWright](https://github.com/Xilinx/RapidWright.git) (Xilinx)
    - *Provide Vivado Interface for users to build customized FPGA implementations.*
    - Similar projects: [Torc](https://github.com/torc-isi/torc), [RapidSmith](http://rapidsmith.sourceforge.net/), and [RapidSmith2](https://github.com/byuccl/RapidSmith2)
- - [IceStorm](http://www.clifford.at/icestorm/)
+ - [IceStorm](http://www.clifford.at/icestorm/) (Clifford Wolf)
    - *Aims at reverse engineering and documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.*
    - A working fully open source flow with *Yosys* and *Arachne-pnr*.
  - [FPGA CAD Framework](https://github.com/EliasVansteenkiste/FPGA-CAD-Framework) (Ghent Univ.)
@@ -61,6 +68,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A wrapper in Chisel for using RTL kernels into SDAccel 2017.1.*
  - [hCODE](https://github.com/hCODE-FPGA/hCODE/tree/master/lib) (Kumamoto University)
    - *A tool to simplify the creation, sharing, and software integration of FPGA hardware accelerators.*
+ - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
+   - *An open-source toolchain to design and evaluate island style spatial automata processing architectures.*
  - [DATuner](https://github.com/cornell-zhang/datuner) (Cornell, PKU)
    - *A parallel bandit-based approach for autotuning FPGA compilation.*
 
@@ -89,8 +98,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *A sequential logic synthesis and formal verification tool.*
  - [LLDHL](https://github.com/errordeveloper/llhdl)
    - *A logic synthesis and manipulation infrastructure for FPGAs.*
- - qflow [Yosys](https://github.com/YosysHQ/yosys)
-   - *A framework for Verilog RTL synthesis.*
+ - [Yosys](https://github.com/YosysHQ/yosys) (Clifford Wolf)
+   - *A framework for Verilog RTL synthesis,* used by qflow and OpenROAD
 
 ### Placement
  - [DREAMPlace](https://github.com/limbo018/DREAMPlace) (UT Austin)
@@ -131,29 +140,8 @@ This is a collection of traditional electronic design automation surveys, course
    - *An open-source simulator for the VHDL language.*
  - [FreeHDL](http://freehdl.seul.org/)
    - *A free, open source, GPL'ed VHDL simulator for Linux.*
- - [Tkgate](https://github.com/bnoordhuis/tkgate)
+ - [TkGate](https://github.com/bnoordhuis/tkgate)
    - *A digital circuit editor and simulator with a Tcl/Tk-based interface.*
-
-### Circuit Simulation
- - [mixedsim](https://github.com/Isotel/mixedsim) (Isotel)
-   - *Mixed signal simulation with Verilog.*
- - [ngspice](http://ngspice.sourceforge.net/)
-   - *Open source spice simulator.*
- - [SPICE](http://bwrcs.eecs.berkeley.edu/Classes/IcBook/SPICE/)
-   - *A general-purpose circuit simulation program for nonlinear dc, nonlinear transient, and linear ac analyses.*
- - [Gnucap: GNU Circuit Analysis Package](http://gnucap.org/dokuwiki/doku.php?id=gnucap:start)
-   - *A modern "post-spice" analog and mixed signal circuit simulator.*
- - [Qucs: Quite Universal Circuit Simulator](https://github.com/Qucs/qucs/)
-   - *Setup a circuit with a graphical user interface (GUI) and simulate the large-signal, small-signal and noise behaviour of the circuit.*
- - [Xyce](https://xyce.sandia.gov/) (Sandia NL)
-   - *An open source, SPICE-compatible, high-performance analog circuit simulator, capable of solving extremely large circuit problems by supporting large-scale parallel computing platforms.*
-
-### Physical Simulation
- - [FreeCAD](https://www.freecadweb.org/)
-   - *An open-source parametric 3D modeler made primarily to design real-life objects of any size.*
- - [Fast Field Solvers](https://www.fastfieldsolvers.com/) (FastFieldSolvers)
-   - *The "SPICE" of the ElectroMagnetic world.*
-   - E.M. Workbench, FasterCap, FastCap2, FastHenry2, FastModel
 
 ### Timing Analysis
  - [OpenTimer](https://github.com/OpenTimer/OpenTimer) (UIUC)
@@ -161,11 +149,36 @@ This is a collection of traditional electronic design automation surveys, course
  - OpenROAD [OpenSTA](https://github.com/abk-openroad/OpenSTA)
    - *A gate level static timing verifier.*
 
+### Circuit Analysis
+ - [ngspice](http://ngspice.sourceforge.net/)
+   - *Open source spice simulator.*
+ - [SPICE](http://bwrcs.eecs.berkeley.edu/Classes/IcBook/SPICE/) (Berkeley)
+   - *A general-purpose circuit simulation program for nonlinear dc, nonlinear transient, and linear ac analyses.*
+ - [mixedsim](https://github.com/Isotel/mixedsim) (Isotel)
+   - *Mixed signal simulation with Verilog.*
+ - [Gnucap: GNU Circuit Analysis Package](http://gnucap.org/dokuwiki/doku.php?id=gnucap:start)
+   - *A modern "post-spice" analog and mixed signal circuit simulator.*
+ - [Qucs: Quite Universal Circuit Simulator](https://github.com/Qucs/qucs/)
+   - *Setup a circuit with a graphical user interface (GUI) and simulate the large-signal, small-signal and noise behaviour of the circuit.*
+ - [Xyce](https://xyce.sandia.gov/) (Sandia NL)
+   - *An open source, SPICE-compatible, high-performance analog circuit simulator, capable of solving extremely large circuit problems by supporting large-scale parallel computing platforms.*
+
+### Physical Analysis
+ - [FreeCAD](https://www.freecadweb.org/)
+   - *An open-source parametric 3D modeler made primarily to design real-life objects of any size.*
+ - [Fast Field Solvers](https://www.fastfieldsolvers.com/) (FastFieldSolvers)
+   - *The "SPICE" of the ElectroMagnetic world.*
+   - E.M. Workbench, FasterCap, FastCap2, FastHenry2, FastModel
+
+## Verification
+ - [Netgen](http://opencircuitdesign.com/netgen/)
+   - *A circuit netlist comparison (LVS) and netlist conversion tool.*
+ - [SymbiYosys](https://github.com/YosysHQ/SymbiYosys) (Clifford Wolf)
+   - *Front-end for Yosys-based formal verification flows.*
+
 ### Layout
  - [Magic](http://opencircuitdesign.com/magic/)
    - *A VLSI layout editor, extraction, and DRC tool.*
- - [Netgen](http://opencircuitdesign.com/netgen/)
-   - *A circuit netlist comparison (LVS) and netlist conversion tool.*
  - [KLayout](https://www.klayout.de/build.html)
    - *A high performance layout viewer and editor.*
  - [OpenMPL](https://github.com/limbo018/OpenMPL)
