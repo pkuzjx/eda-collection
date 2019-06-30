@@ -1,5 +1,5 @@
 # EDA-Collection
-This is a collection of traditional electronic design automation surveys, courses, open source tools and books.
+This is a collection of electronic design automation surveys, courses, and open source tools.
 
 ## Table of contents
  - [Books and Surveys]
@@ -35,6 +35,8 @@ This is a collection of traditional electronic design automation surveys, course
   - [OSDA 2019](https://osda.gitlab.io/), co-located with DATE, March 29, 2019; Florence, Italy.
 - WOSET: Workshop on Open-Source EDA Technology
   - [WOSET 2018](https://woset-workshop.github.io/), co-located with ICCAD, Nov 8, 2018; San Diego, CA, USA.
+- [ORConf: The open source digital design conferece](https://orconf.org/)
+  - ORConfs: [2018](https://orconf.org/2018/) | [2017](https://orconf.org/2017/) | [2016](https://orconf.org/2016/) | [2015](https://orconf.org/2015/) | [2014](https://orconf.org/2014/) | [2013](https://orconf.org/2013/) | [2012](https://orconf.org/2012/)
 
 ## Open Source Tools (code available)
 ### ASIC Flow
@@ -66,9 +68,9 @@ This is a collection of traditional electronic design automation surveys, course
    - *A low level configuration analysis and for the debugging and validation of the bitstream files of architectures that exploit dynamic partial reconfiguration on Xilinx FPGAs.*
  - [Sdaccel-chisel-integration](https://github.com/necst/sdaccel_chisel_integration)
    - *A wrapper in Chisel for using RTL kernels into SDAccel 2017.1.*
- - [hCODE](https://github.com/hCODE-FPGA/hCODE/tree/master/lib) (Kumamoto University)
+ - [hCODE](https://github.com/hCODE-FPGA/hCODE/tree/master/lib) (Kumamoto Univ.)
    - *A tool to simplify the creation, sharing, and software integration of FPGA hardware accelerators.*
- - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (University of Virginia)
+ - [Automata to Routing](https://github.com/jackwadden/Automata-to-Routing) (U.Va.)
    - *An open-source toolchain to design and evaluate island style spatial automata processing architectures.*
  - [DATuner](https://github.com/cornell-zhang/datuner) (Cornell, PKU)
    - *A parallel bandit-based approach for autotuning FPGA compilation.*
@@ -187,7 +189,7 @@ This is a collection of traditional electronic design automation surveys, course
 ### PDK and IP
  - [FreePDK](https://www.eda.ncsu.edu/wiki/FreePDK) (NC State)
    - *An open-source, Open-Access-based PDK for the 45nm technology node and the Predictive Technology Model.*
- - POSH [OpenFPGA](https://github.com/LNIS-Projects/OpenFPGA) (Utah)
+ - POSH [OpenFPGA](https://github.com/LNIS-Projects/OpenFPGA) (UofU)
    - *A **FPGA IP generator** using XML-based architecture description including three parts: FPGA-Verilog, FPGA-SPICE, FPGA-Bitstream.*
  - [OpenRAM](https://github.com/mguthaus/OpenRAM) (UCSC)
    - *An open-source memory compiler for VLSI circuits.*
