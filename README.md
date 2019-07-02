@@ -16,6 +16,7 @@ This is a collection of electronic design automation surveys, courses, and open 
  - 2018 [Opportunities for Machine Learning in IC Physical Design](https://vlsicad.ucsd.edu/NEWS18/2018_CASS_ML_Kahng-v5-ACTUAL.pdf)
 ### Synthesis
  - 2003 [Synthesis and Optimization of Digital Circuits](https://si2.epfl.ch/~demichel/publications/mcgraw/)
+ - 2018 [Logic Synthesis for Established and Emerging Computing](https://ieeexplore.ieee.org/abstract/document/8478240)
 ### Placement
  - 2015 [Progress and Challenges in VLSI Placement Research](http://doi.org/10.1109/jproc.2015.2478963)
 ### Routing
