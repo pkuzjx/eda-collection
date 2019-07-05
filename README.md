@@ -41,11 +41,11 @@ This is a collection of electronic design automation surveys, courses, and open 
 
 ## Open Source Tools (code available)
 ### ASIC Flow
- - [qflow](http://opencircuitdesign.com/qflow/) (Dr. R. Timothy Edwards)
+ - [qflow](http://opencircuitdesign.com/qflow/) (Dr. R. Timothy Edwards), [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
    - *A Digital Flow using Open Source EDA Tools.*
- - [VSDFLOW](https://github.com/kunalg123/vsdflow) (VLSI System Design)
+ - [VSDFLOW](https://github.com/kunalg123/vsdflow) (VLSI System Design), ["available for download for FREE"](https://www.vlsisystemdesign.com/projects/)
    - *An automated RTL-to-GDS flow for programmers, hobbyists, and small-scale entrepreneurs.*
- - [OpenRoad](https://theopenroadproject.org/) (UCSD)
+ - [OpenRoad](https://theopenroadproject.org/) (UCSD), various licenses (BSD 2-Clause, BSD 3-Clause, GPL 3.0, ISC, etc.)
    - *Aim to develop open-source tools that achieve autonomous, 24-hour layout implementation.*
  - [Ophidian](https://github.com/eclufsc/ophidian) (UFSC)
    - *An open-source library for physical design research and teaching.*
