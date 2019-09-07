@@ -13,6 +13,7 @@ This is a collection of electronic design automation surveys, courses, and open 
  - ICCAD 2015 Session 3D [From EDA to DA: Can We Evolve Beyond Our E-Roots?](https://www.mpassociates.com/events/proceedings.aspx?id=196--3-D)
  - DAC-2015 [DA Perspective Challenge](https://vlsicad.ucsd.edu/DAPerspectiveChallenge/competing-proposals.html)
  - CCC Visioning Activity 2014 [Extreme Scale Design Automation](https://cra.org/ccc/visioning/visioning-activities/2014-activities/extreme-scale-design-automation/)
+ - 2019 [Third Party CAD Tools for FPGA Design—A Survey of the Current Landscape](https://link.springer.com/chapter/10.1007/978-3-030-17227-5_25)
  - 2018 [Opportunities for Machine Learning in IC Physical Design](https://vlsicad.ucsd.edu/NEWS18/2018_CASS_ML_Kahng-v5-ACTUAL.pdf)
 ### Synthesis
  - 2003 [Synthesis and Optimization of Digital Circuits](https://si2.epfl.ch/~demichel/publications/mcgraw/)
@@ -20,6 +21,8 @@ This is a collection of electronic design automation surveys, courses, and open 
 ### Placement
  - 2015 [Progress and Challenges in VLSI Placement Research](http://doi.org/10.1109/jproc.2015.2478963)
 ### Routing
+ - 2001 [A Survey on Multi-net Global Routing for Integrated Circuits](https://www.sciencedirect.com/science/article/pii/S0167926001000207)
+ - 2008 [The coming of age of (academic) global routing](https://dl.acm.org/citation.cfm?id=1353662)
 
 ## Courses and Tutorials
  - Rob A. Rutenbar, [VLSI CAD Part I: Logic](https://www.coursera.org/learn/vlsi-cad-logic) and [VLSI CAD Part II: Layout](https://www.coursera.org/learn/vlsi-cad-layout)
