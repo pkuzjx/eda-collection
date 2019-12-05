@@ -1,4 +1,5 @@
 # EDA-Collection
+Please refer to our new web page: http://openbelt.org.cn/
 This is a collection of electronic design automation surveys, courses, and open source tools.
 
 
